@@ -1,0 +1,10 @@
+.menuContainer {
+  width: 99.8vw;
+  background-color: transparent;
+  border: 1px solid red
+}
+
+.menuContent {
+  color: black;
+  line-height: 4;
+}
