@@ -7,12 +7,15 @@ const Menu = () => {
   return (
     <Box
       sx={{
+        position: 'fixed',
         display: 'flex',
+        zIndex: 1000,
         justifyContent: 'space-between',
         alignItems: 'center',
         width: '98.4vw',
         color: 'black',
         padding: '10px',
+        backgroundColor: 'transparent'
       }}
     >
       <Box sx={{ display: 'flex', alignItems: 'center' }}>
