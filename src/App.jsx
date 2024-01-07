@@ -3,7 +3,10 @@ import Menu from './components/Menu/Menu';
 
 const App = () => {
   return (
-    <div>
+    <div style={{ display: 'flex', flexDirection: 'column' }}>
+      {/* Espaço reservado para o Menu com a mesma altura do Menu */}
+      <div style={{ height: '1em' }}></div>
+      
       <Menu />
     </div>
   );
