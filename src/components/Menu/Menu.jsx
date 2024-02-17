@@ -18,13 +18,13 @@ const Menu = () => {
         backgroundColor: 'transparent'
       }}
     >
-      <Box sx={{ display: 'flex', alignItems: 'center' }}>
+      <Box sx={{ display: 'flex', alignItems: 'center', marginTop: '0.7em' }}>
         <DarkModeIcon sx={{ marginLeft: '1.5em', fontSize: '1.7em' }} />
       </Box>
       <Box sx={{ display: 'flex', alignItems: 'center' }}>
         <Typography 
           sx={{ 
-            margin: '0 0.7em', 
+            margin: '0 1em', 
             fontSize: '1em', 
             '&:hover': { color: '#0C8CE9'}, 
             cursor: 'pointer' 
@@ -33,7 +33,7 @@ const Menu = () => {
         </Typography>
         <Typography 
           sx={{ 
-            margin: '0 0.7em', 
+            margin: '0 1.3em', 
             fontSize: '1em', 
             '&:hover': { color: '#0C8CE9'}, 
             cursor: 'pointer' 
@@ -42,7 +42,7 @@ const Menu = () => {
         </Typography>
         <Typography 
           sx={{ 
-            margin: '0 0.7em', 
+            margin: '0 1.3em', 
             fontSize: '1em', 
             '&:hover': { color: '#0C8CE9'}, 
             cursor: 'pointer' 
@@ -51,7 +51,7 @@ const Menu = () => {
         </Typography>
         <Typography 
           sx={{ 
-            margin: '0 0.7em', 
+            margin: '0 1.3em', 
             fontSize: '1em', 
             '&:hover': { color: '#0C8CE9'}, 
             cursor: 'pointer' 
